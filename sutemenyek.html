@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lucky - Kávéfajták</title>
+</head>
+<body>
+  <header class="vmi">
+    <nav class="navbar navbar-expand-lg  navbar-dark fixed-top">
+      <div class="container-fluid">
+        <img src="img/logo1 (2) szem-min.svg" class="kep" alt="" srcset="">
+        <a class="navbar-brand" href="index.html">Lucky</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Kezdőlap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="kavefajtak.html">Kávéfajták</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active" href="sutemenyek.html">Sütemények</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="banner">
+
+
+
+    </div>
+
+
+
+
+
+
+  </header>
+
+
+    <div class="container">
+        <div class="row">
+            <h1 class="m-5">Lucky - Sütemények</h1>
+        </div>
+    
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card" data-bs-toggle="modal" data-bs-target="#brownieModal">
+            <img src="img/brownie_meret.png" class="card-img-top" alt="Brownie" title="Brownie">
+            <div class="card-body">
+              <h5 class="card-title">Brownie</h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" data-bs-toggle="modal" data-bs-target="#croassaintModal">
+            <img src="img/croassaint_meret.png" class="card-img-top" alt="Croassaint" title="Croassaint">
+            <div class="card-body">
+              <h5 class="card-title">Croassaint</h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" data-bs-toggle="modal" data-bs-target="#kekszModal">
+            <img src="img/keksz_meret.png" class="card-img-top" alt="Keksz" title="Keksz">
+            <div class="card-body">
+              <h5 class="card-title">Keksz</h5>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" data-bs-toggle="modal" data-bs-target="#macaroneModal">
+            <img src="img/macarone_meret.png" class="card-img-top" alt="Macarone" title="Macarone">
+            <div class="card-body">
+              <h5 class="card-title">Macarone</h5>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col" data-bs-toggle="modal" data-bs-target="#muffinModal">
+            <div class="card">
+              <img src="img/muffin_meret.png" class="card-img-top" alt="Muffin" title="Muffin">
+              <div class="card-body">
+                <h5 class="card-title">Muffin</h5>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col" data-bs-toggle="modal" data-bs-target="#tortaModal">
+            <div class="card">
+              <img src="img/torta_meret.png" class="card-img-top" alt="Csokitorta" title="Csokitorta">
+              <div class="card-body">
+                <h5 class="card-title">Csokitorta</h5>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+<footer class="mt-5">
+<div class="row">
+  <div class="col-sm-6 col-lg-4 offset-1">
+    <h3 class="pt-3">Elérhetőségek</h3>
+    <ul>
+<li><img src="img/logo-boritek.svg" width="40px" alt="" srcset=""> 6900 Makó, Posta utca 4-6.</li>
+<li><img src="img/@jel.svg" alt="" width="40px" srcset=""> lucky@gmail.com</li>
+<li><img src="img/telefon-logo.svg" width="40px" alt="" srcset=""> +36 (30) 111-5555</li>
+
+    </ul> 
+  </div>
+  <div class="col-sm-6 col-lg-4 offset-1">
+<h3 class="pt-3"> Feliratkozás hírlevélre</h3>
+<form action="">
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon2" id="email">
+  <button class="input-group-text btn btn-success" id="basic-addon2" onclick="feliratkozas()">Feliratkozom!</button >
+</div></form>
+
+
+  </div>
+</div>
+
+
+
+
+
+</footer>
+
+
+<div class="modal" id="brownieModal" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Brownie</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="img/brownie_meret.png" alt="Espresso" srcset="" class="img-fluid">
+            </div>
+            <div class="col-sm-8">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum aspernatur reprehenderit harum laboriosam esse molestiae nihil voluptatibus recusandae asperiores. Veniam, modi saepe ipsa ducimus excepturi corrupti in aperiam voluptates!</p>
+        <p>Eaque, modi odit maiores, molestiae quidem in enim doloremque veniam illo dolorum facere ratione expedita tempore, aliquid exercitationem? Pariatur excepturi nihil nisi. Fugit dolorem ipsum vel asperiores, unde magnam quibusdam.</p>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezárás</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="modal" id="croassaintModal" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Croassaint</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="img/croassaint_meret.png" alt="Frappe" srcset="" class="img-fluid">
+            </div>
+            <div class="col-sm-8">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum aspernatur reprehenderit harum laboriosam esse molestiae nihil voluptatibus recusandae asperiores. Veniam, modi saepe ipsa ducimus excepturi corrupti in aperiam voluptates!</p>
+        <p>Eaque, modi odit maiores, molestiae quidem in enim doloremque veniam illo dolorum facere ratione expedita tempore, aliquid exercitationem? Pariatur excepturi nihil nisi. Fugit dolorem ipsum vel asperiores, unde magnam quibusdam.</p>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezárás</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="kekszModal" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Keksz</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="img/keksz_meret.png" alt="Latte" srcset="" class="img-fluid">
+            </div>
+            <div class="col-sm-8">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum aspernatur reprehenderit harum laboriosam esse molestiae nihil voluptatibus recusandae asperiores. Veniam, modi saepe ipsa ducimus excepturi corrupti in aperiam voluptates!</p>
+        <p>Eaque, modi odit maiores, molestiae quidem in enim doloremque veniam illo dolorum facere ratione expedita tempore, aliquid exercitationem? Pariatur excepturi nihil nisi. Fugit dolorem ipsum vel asperiores, unde magnam quibusdam.</p>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezárás</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal" id="macaroneModal" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Macarone</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="img/macarone_meret.png" alt="Lungo" srcset="" class="img-fluid">
+            </div>
+            <div class="col-sm-8">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum aspernatur reprehenderit harum laboriosam esse molestiae nihil voluptatibus recusandae asperiores. Veniam, modi saepe ipsa ducimus excepturi corrupti in aperiam voluptates!</p>
+        <p>Eaque, modi odit maiores, molestiae quidem in enim doloremque veniam illo dolorum facere ratione expedita tempore, aliquid exercitationem? Pariatur excepturi nihil nisi. Fugit dolorem ipsum vel asperiores, unde magnam quibusdam.</p>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezárás</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" id="muffinModal" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Muffin</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="img/muffin_meret.png" alt="Tejes kávé" srcset="" class="img-fluid">
+            </div>
+            <div class="col-sm-8">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum aspernatur reprehenderit harum laboriosam esse molestiae nihil voluptatibus recusandae asperiores. Veniam, modi saepe ipsa ducimus excepturi corrupti in aperiam voluptates!</p>
+        <p>Eaque, modi odit maiores, molestiae quidem in enim doloremque veniam illo dolorum facere ratione expedita tempore, aliquid exercitationem? Pariatur excepturi nihil nisi. Fugit dolorem ipsum vel asperiores, unde magnam quibusdam.</p>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezárás</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" id="tortaModal" tabindex="-1">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Csokitorta</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="img/torta_meret.png" alt="Cappucino" srcset="" class="img-fluid">
+            </div>
+            <div class="col-sm-8">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates illum aspernatur reprehenderit harum laboriosam esse molestiae nihil voluptatibus recusandae asperiores. Veniam, modi saepe ipsa ducimus excepturi corrupti in aperiam voluptates!</p>
+        <p>Eaque, modi odit maiores, molestiae quidem in enim doloremque veniam illo dolorum facere ratione expedita tempore, aliquid exercitationem? Pariatur excepturi nihil nisi. Fugit dolorem ipsum vel asperiores, unde magnam quibusdam.</p>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezárás</button>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script>
+  function feliratkozas()
+  {
+    let email=document.getElementById("email").value;
+    if(email=="")
+    {
+      alert("Kérem adja meg az e-mail címét!")
+    }
+    else{
+      alert("Sikeresen feliratkozott a hírlevelünkre!")
+    }
+
+
+  }
+
+
+</script>
+</body>
+</html>
